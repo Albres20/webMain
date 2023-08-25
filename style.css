@@ -515,32 +515,44 @@ sobre mi */
 
 /* Contactanos  */
 .form {
-    background: hsl(199, 89%, 96%);
+    background: #354953;
     color: #fff;
     display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+    height: 100vh;
+    align-items: center;
 }
 .form .contenido-seccion{
-    max-width: 700px;
+    max-width: 600px;
     margin: auto;
-    padding: 80px 0;
-    display: flex;
-    
+    background: #192a34;
+    border-radius: 20px;
+   
 }
-.form .contenido-seccion h2{
-    display: block;
-}
-.form .contenido-seccion .formulario-seccion{
-    background-color: #8eed21;
+
+.form   h2{
     
     text-align: center;
+    font-family: Arial, sans-serif;
+    color: rgb(249, 212, 131);
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 20px 20px 0px 0;
+    padding-bottom: 20px;
+    background: #068877;
+    font-size: 28px;
 }
-.form .contenido-seccion .formulario-seccion input{
-    margin-bottom: 75px;
-    width: 20px;
-    display: block;
-    background: #c60505;
-    
+.form .fila{
+    display: flex;  
+    justify-content: center;
+}
+.form .fila .col{
+    width: 50%;
+    margin:auto;
+    padding: 60px 0;
+}
+.form .fila .col input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 20px;
+    border-radius: 8px;
 }
