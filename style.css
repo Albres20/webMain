@@ -476,6 +476,7 @@ sobre mi */
     text-align: center;
     color: #f3d492;
     padding: 20px 5px;
+    
 }
 .portfolio .galeria{
     display: flex;
@@ -533,26 +534,40 @@ sobre mi */
     
     text-align: center;
     font-family: Arial, sans-serif;
-    color: rgb(249, 212, 131);
+    color: #fbd684;
     margin: auto;
     padding-top: 20px;
     border-radius: 20px 20px 0px 0;
     padding-bottom: 20px;
-    background: #068877;
+    background: #2a4655;
     font-size: 28px;
+    border-top: solid 1px #fbd684;
+    border-left: solid 1px #fbd684;
+    border-right: solid 1px #fbd684;
 }
 .form .fila{
     display: flex;  
     justify-content: center;
+    
 }
 .form .fila .col{
     width: 50%;
     margin:auto;
     padding: 60px 0;
+    
 }
 .form .fila .col input{
     width: 100%;
     margin-bottom: 10px;
     padding: 10px 0 10px 20px;
     border-radius: 8px;
+} 
+ 
+.form .fila .col .boton{
+    padding: 15px 20px;
+    background: rgb(6, 136, 119);
+    cursor: pointer;
+    width: 100%;
+    color: #ffffff;
+    border-radius:8px 8px 8px 8px;
 }
