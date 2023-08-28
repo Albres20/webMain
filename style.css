@@ -571,3 +571,109 @@ sobre mi */
     color: #ffffff;
     border-radius:8px 8px 8px 8px;
 }
+
+
+/* footer */
+.footer{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(img/sun.jpg);
+    
+}
+
+.footer .contenido-footer {
+    max-height: 800px;
+}
+.footer .contenido-footer .footer-redes{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer .contenido-footer .footer-redes a{
+   font-size: 50px;
+   margin:20px 20px ;
+}
+.footer .contenido-footer .footer-redes a .fb{
+    color: #4267B2
+}
+
+.footer .contenido-footer .footer-redes a .ln{
+    color: #0e76a8
+}
+.footer .contenido-footer .footer-redes a .wa{
+    color: #25D366
+}
+
+/* Responsive */
+
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .contenedor-header header .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #192a34;
+        width: 180px;
+        
+    }
+    nav.responsive ul{
+        display: block;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #f3d492;
+        padding: 10px 0;
+        
+    }
+    nav.responsive ul li a{
+        color: white;
+    }
+}
+@media screen and (max-width:700px){
+    .sobremi .contenido-seccion .fila{
+        display: block;
+    }
+    .sobremi .fila .col{
+        width: fit-content;
+    }
+    .skills .contenido-seccion .fila{
+        display: block;
+        
+    }
+    .skills .contenido-seccion .fila .col{
+        width:100%;
+        
+       
+    }
+    .skill .fila .col .barra-skill{
+        width: 100%;
+    } 
+    .curriculum .contenido-seccion .fila{
+        display: block;
+    }
+    .curriculum .contenido-seccion .fila .col{
+        width: 90%;
+        margin: auto;
+    } 
+     
+    .portfolio .galeria{
+        display: block;
+        width: 100%;
+    }
+    .portfolio .galeria .proyecto{
+        max-width: 100%;
+    }
+    .portfolio .galeria .proyecto img{
+        width: 100%;
+    }
+    .contacto .fila{
+        display: block;
+    }
+    .contacto .fila .col{
+        width: 100%;
+    }
+    
+}
