@@ -340,17 +340,171 @@ sobre mi */
 
 @keyframes javascript{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 50%;}
 }
+/* ------------------ */
 .skills .skill .hmtlCss{
     width: 0%;
-    animation: 2s javascript forwards; /* formward permite conservar el estado final de mi animación  */
+    animation: 2s hmtlCss forwards; /* formward permite conservar el estado final de mi animación  */
 }
 
 @keyframes hmtlCss{
     0%{width: 0%;}
+    100%{width: 75%;}
+}
+/* ------------------ */
+.skills .skill .bootstrap{
+    width: 0%;
+    animation: 2s bootstrap forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes bootstrap{
+    0%{width: 0%;}
     100%{width: 60%;}
 }
+/* ------------------ */
+.skills .skill .angular{
+    width: 0%;
+    animation: 2s angular forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes angular{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+/* ------------------ */
+.skills .skill .python{
+    width: 0%;
+    animation: 2s python forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes python{
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+/* ------------------ */
+.skills .skill .python{
+    width: 0%;
+    animation: 2s python forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes python{
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+/* ------------------ */
+.skills .skill .jspring{
+    width: 0%;
+    animation: 2s jspring forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes jspring{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+/* ------------------ */
+.skills .skill .php{
+    width: 0%;
+    animation: 2s php forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes php{
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+/* ------------------ */
+.skills .skill .crip{
+    width: 0%;
+    animation: 2s crip forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes crip{
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+/* ------------------ */
+.skills .skill .sql{
+    width: 0%;
+    animation: 2s sql forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes sql{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+/* ------------------ */
+.skills .skill .mysql{
+    width: 0%;
+    animation: 2s mysql forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes mysql{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+/* ------------------ */
+.skills .skill .figma{
+    width: 0%;
+    animation: 2s figma forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes figma{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+/* ------------------ */
+.skills .skill .git{
+    width: 0%;
+    animation: 2s git forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes git{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+/* ------------------ */
+/* -----------------Habilidades profesioneles */ 
+/* ------------------ */
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes comunicacion{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+/* ------------------ */
+.skills .skill .team{
+    width: 0%;
+    animation: 2s team forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes team{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+/* ------------------ */
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes creatividad{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+/* ------------------ */
+.skills .skill .dedicación{
+    width: 0%;
+    animation: 2s dedicación forwards; /* formward permite conservar el estado final de mi animación  */
+}
+
+@keyframes dedicación{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
 
 /* Curriculum */
 .curriculum{
